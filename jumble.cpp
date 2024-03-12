@@ -10,10 +10,6 @@
 using namespace std;
 
 int main(int argc, char *argv[]){
-  /*
-     the variable word2freq is an unordered_map
-        from strings to integers.
-  */
   unordered_map<string, vector<string>> dict;
   ifstream file;
   string word;
